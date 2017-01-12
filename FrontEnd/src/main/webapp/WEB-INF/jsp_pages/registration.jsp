@@ -19,18 +19,18 @@
 <table border='0' width='480px' align='center'>
 <tr>
     <td align='center'><label>username:</label></td>
-    <td><input type='text' name='username' placeholder="enter your name" path="username"/></td>
+    <td><input type='text' name='username' placeholder="enter your name" path="username" required/ ></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 
 <tr>
     <td align='center'>password:</td>
-    <td><input type='text' name='password' placeholder="enter your sur name" path="password"/></td>
+    <td><input type='password' name='password' placeholder="enter your password" path="password"/></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 <tr>
     <td align='center'>email:</td>
-    <td><input type='text' name='email' placeholder="enter your mailid" path="email"/></td>
+    <td><input type='url' name='email' placeholder="enter your mailid" path="email" /></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 <tr>

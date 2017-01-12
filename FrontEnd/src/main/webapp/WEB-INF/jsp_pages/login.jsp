@@ -9,6 +9,7 @@
 <tr>
 <td><h1><center>login page<center></h1></td>
 </tr>
+${msg}
 <table border='0' width='420px'align='center'>.
 <tr>
 <td align='center'><label>username:</label></td>
@@ -17,7 +18,7 @@
 <tr><td>&nbsp</td></tr>
 <tr>
 <td align='center'><label>Password:</label></td>
-<td><input type="text" name="password" placeholder="enter your password"/>
+<td><input type="password" name="password" placeholder="enter your password"/>
 </tr>
 <tr><td>&nbsp</td></tr>
 <table border='0' width='480px' align='center'>

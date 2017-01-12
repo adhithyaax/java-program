@@ -38,7 +38,8 @@ public class HomeController {
 		ModelAndView model= new ModelAndView("loginsuccess");
 		 return model;}
 		else{ModelAndView model= new ModelAndView("login"); 
-			return model;}
+	model.addObject("msg","invalid username and password");
+		return model;}
 	}
 	
 @RequestMapping(value = "/registrationsuccess", method = RequestMethod.POST)
