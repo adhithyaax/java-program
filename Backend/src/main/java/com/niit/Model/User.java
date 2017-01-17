@@ -18,8 +18,16 @@ public class User {
 	private String email;
 	@Column(name = "birthday")
 	private String birthday;
+	private String role;
+	@Column(name = "Role")
 	public String getEmail() {
 		return email;
+	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
 	}
 	public void setEmail(String email) {
 		this.email = email;

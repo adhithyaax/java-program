@@ -20,6 +20,8 @@ public class HomeController {
 		return "login";
 	}
 
+	
+
 	@RequestMapping("/about")
 	public String hello2(){
 		return "about";
@@ -29,6 +31,18 @@ public class HomeController {
 	public String hello3(){
 		return "registration";
 	}
+
+	@RequestMapping("/admin")
+	public String hello5(){
+		return "admin";
+	}
+
+	@RequestMapping("/category")
+	public String hello6(){
+		return "category";
+	}
+
+	
 	
 	@RequestMapping(value="/loginsuccess", method=RequestMethod.POST)
 	public ModelAndView hello4(@RequestParam("username") String username, @RequestParam("password") String password){

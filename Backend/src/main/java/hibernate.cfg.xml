@@ -21,6 +21,8 @@
     
   
     <mapping class="com.niit.Model.User"/>
+        
+    <mapping class="com.niit.Model.Category"/>
         </session-factory>
 
 </hibernate-configuration>

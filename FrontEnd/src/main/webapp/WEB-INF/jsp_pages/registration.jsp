@@ -30,7 +30,7 @@
 <tr> <td>&nbsp;</td> </tr>
 <tr>
     <td align='center'>email:</td>
-    <td><input type='url' name='email' placeholder="enter your mailid" path="email" /></td>
+    <td><input type='email' name='email' placeholder="enter your mailid" path="email" /></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 <tr>
