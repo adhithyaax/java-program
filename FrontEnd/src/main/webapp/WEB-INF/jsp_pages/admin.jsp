@@ -8,7 +8,7 @@
 </head>
 <body>
 <a href="category">Manage Category</a>
-
+<a href="supplier">Manage Supplier</a>
 </select>
 </body>
 </html>

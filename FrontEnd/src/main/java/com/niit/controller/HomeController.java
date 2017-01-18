@@ -41,6 +41,10 @@ public class HomeController {
 	public String hello6(){
 		return "category";
 	}
+	@RequestMapping("/supplier")
+	public String hello7(){
+		return "supplier";
+	}
 
 	
 	

@@ -29,7 +29,7 @@ public class Categorycontroller {
 	public String addCategory(Category categoryModel) {
 		CategoryDao categoryDAO = new CategoryDaoImpl();
 		categoryDAO.addCategory(categoryModel);
-		return "redirect:/admin";
+		return "redirect:/category";
 	}
 	// ---------------------------------delete---------------------------------
 	@RequestMapping(value = "/deletecategory", method = RequestMethod.GET)

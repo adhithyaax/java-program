@@ -12,30 +12,30 @@
 <body>
 <table border='0' width='480px' align='center'>
 <tr>
-   <td align='center'><h1>category </h1></td>
+   <td align='center'><h1>Category </h1></td>
 </tr>
 <c:url var="action" value="/addcategory" ></c:url>
 <form:form action="${action}" method="get" commandName="categoryModel">
 
 <table border='0' width='480px' align='center'>
 <tr>
-    <td align='center'><label>category Id:</label></td>
+    <td align='center'><label>Category Id:</label></td>
     <td><form:input type="text" placeholder="enter category id" path="catID"  /></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 
 <tr>
-    <td align='center'>categoryname:</td>
+    <td align='center'>Category Name:</td>
     <td><form:input type="text" name="categoryname" placeholder="categoryname" path="catName" /></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 <tr>
-    <td align='center'>desc:</td>
+    <td align='center'>Desc:</td>
     <td><form:input type="text" name="categorydesc" placeholder="enter category desc" path="catDesc" /></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 
-    <tr><td align='center'><input type='submit' name='REGISTER' value="register"></td>
+    <tr><td align='center'><input type='submit' name='REGISTER' value="ADD CAT"></td>
 </tr>
 
 <strong>Category List</strong>
