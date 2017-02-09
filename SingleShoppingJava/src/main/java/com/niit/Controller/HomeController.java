@@ -34,7 +34,23 @@ Logger log=LoggerFactory.getLogger(HomeController.class);
 		ModelAndView model = new ModelAndView("admin");
 		return model;
 	}
-
+	@RequestMapping(value = "/single")							 //mapping for "/admin"
+	public ModelAndView hello10() {
+	    log.debug("inside controller for /admin");
+		ModelAndView model = new ModelAndView("single");
+		return model;}
+	@RequestMapping(value = "/products")							 //mapping for "/admin"
+	public ModelAndView hello() {
+	    log.debug("inside controller for /admin");
+		ModelAndView model = new ModelAndView("products");
+		return model;
+	}
+	@RequestMapping(value = "/addtocart")							 //mapping for "/admin"
+	public ModelAndView hello11() {
+	    log.debug("inside controller for /admin");
+		ModelAndView model = new ModelAndView("addtocart");
+		return model;
+	}
 
 	@RequestMapping(value = "/register")							//mapping for "/register"
 	public ModelAndView registerPage(Model m) {
@@ -64,6 +80,14 @@ Logger log=LoggerFactory.getLogger(HomeController.class);
 	public ModelAndView hello4() {
 	    log.debug("inside controller for /index");
 		ModelAndView model = new ModelAndView("index");
+		return model;
+
+	}
+
+	@RequestMapping(value = "/")							//mapping for "/index"
+	public ModelAndView hello7() {
+	    log.debug("inside controller for /index");
+		ModelAndView model = new ModelAndView("index","userModel",new User());
 		return model;
 
 	}
@@ -158,7 +182,8 @@ Logger log=LoggerFactory.getLogger(HomeController.class);
 
     @RequestMapping("/logout")
     public ModelAndView logout(HttpServletRequest request, HttpSession session) {
-	ModelAndView mv = new ModelAndView("index");
+	
+	ModelAndView mv = new ModelAndView("index","userModel",new User());
 	session.invalidate();
 	session = request.getSession(true);
 	mv.addObject("logoutMessage", "you are successfully logged out");

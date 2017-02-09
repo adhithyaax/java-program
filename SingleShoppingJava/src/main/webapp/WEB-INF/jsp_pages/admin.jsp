@@ -14,5 +14,6 @@
 <a href="supplier">Manage Supplier</a>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <a href="logout">logout</a>
+Manage account: <a href="delete">delete account</a>
 </body>
 </html>

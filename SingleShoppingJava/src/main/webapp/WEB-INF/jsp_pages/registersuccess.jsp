@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>RajeshShopping</title>
+<title>OnlineShopping</title>
 </head>
 <body>
 <h2>Your are successfully registered,   Rock on  </h2>
@@ -41,7 +41,7 @@
 </tr>
 
 </table><br><br><br><br>
-<a href="login">Log out</a>
+<a href="logout">Log out</a>
 
 
 </body>
